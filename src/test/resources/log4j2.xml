@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <!-- Define properties like base paths or any other reusable variables -->
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+
+    <!-- Define where and how log messages will be written -->
+    <Appenders>
+        <!-- Console appender for displaying log messages on the system's console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- RollingFile appender for writing log messages to a file, with size-based rollover -->
+        <RollingFile name="File" fileName="${basePath}/automation.log"
+                     filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="50MB"/>
+        </RollingFile>
+    </Appenders>
+
+    <!-- Define loggers and their logging levels -->
+    <Loggers>
+        <!-- Root logger, directing log messages to the File appender -->
+        <Root level="info">
+            <AppenderRef ref="File"/>
+            <!-- Optionally uncomment the Console appender if you want logs to appear on both console and file -->
+            <!-- <AppenderRef ref="Console"/> -->
+        </Root>
+
+        <!-- You can define specific loggers for different packages or classes, for example: -->
+        <!--
+        <Logger name="com.example" level="debug" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+        -->
+    </Loggers>
+</Configuration>
