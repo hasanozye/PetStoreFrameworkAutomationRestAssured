@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pet Suite">
+
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager"/>
+    </listeners>
+    <test thread-count="5" name="PetTests">
+        <classes>
+            <class name="api.test.UserTests2">
+                <methods>
+                    <include name="testPostUser"/>
+                    <include name="testGetUserByName"/>
+                    <include name="testUpdateUserByName"/>
+                    <include name="testDeleteUserByName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
