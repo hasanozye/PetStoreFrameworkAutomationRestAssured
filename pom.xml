@@ -140,9 +140,9 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.5.1</version>
                     <configuration>
-                        <suiteXMLFiles>
+                        <suiteXmlFiles>
                             <suiteXmlFile>testng.xml</suiteXmlFile>
-                        </suiteXMLFiles>
+                        </suiteXmlFiles>
                     </configuration>
                 </plugin>
             </plugins>
