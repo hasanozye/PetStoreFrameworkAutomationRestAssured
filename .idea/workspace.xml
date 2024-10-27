@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ecfe3a-1533-4813-afbb-1ab07ea10a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/UserEndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/XLUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/userdata.xlsx" afterDir="false" />
+    <list default="true" id="15ecfe3a-1533-4813-afbb-1ab07ea10a2c" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/UserEndPoints2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/routes.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +37,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\e 15\IdeaProjects\PetStoreFrameworkAutomation" />
+      <recent name="C:\Users\e 15\IdeaProjects\PetStoreFrameworkAutomation\src\test\java\api\test" />
+      <recent name="C:\Users\e 15\IdeaProjects\PetStoreFrameworkAutomation\src\test\java\api\utilities" />
       <recent name="C:\Users\e 15\IdeaProjects\PetStoreFrameworkAutomation\testData" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api.test" />
+      <recent name="api.endpoints" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.UserTests">
+  <component name="RunManager" selected="TestNG.C:/Users/e 15/IdeaProjects/PetStoreFrameworkAutomation/testng.xml">
+    <configuration name="C:/Users/e 15/IdeaProjects/PetStoreFrameworkAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreFrameworkAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataDrivenTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreFrameworkAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.DataDrivenTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PetStoreFrameworkAutomation" />
       <extension name="coverage">
@@ -117,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserTests" />
-        <item itemvalue="TestNG.UserTests.testGetUserByName" />
+        <item itemvalue="TestNG.C:/Users/e 15/IdeaProjects/PetStoreFrameworkAutomation/testng.xml" />
+        <item itemvalue="TestNG.DataDrivenTests" />
         <item itemvalue="TestNG.UserTests.testPostUser" />
+        <item itemvalue="TestNG.UserTests.testGetUserByName" />
+        <item itemvalue="TestNG.UserTests" />
       </list>
     </recent_temporary>
   </component>
@@ -135,21 +170,98 @@
       <workItem from="1729596502743" duration="1690000" />
       <workItem from="1729598813367" duration="566000" />
       <workItem from="1729664312989" duration="2032000" />
+      <workItem from="1729706197291" duration="8727000" />
+      <workItem from="1729749665709" duration="22000" />
+      <workItem from="1729777894835" duration="2049000" />
     </task>
+    <task id="LOCAL-00001" summary="udpated gitignore and intellij files">
+      <option name="closed" value="true" />
+      <created>1729708582271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708582271</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated om for apache poi libraries">
+      <option name="closed" value="true" />
+      <created>1729708595826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708595826</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created Routes Class for url config">
+      <option name="closed" value="true" />
+      <created>1729708608258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708608258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created User class for POJO and Serilization and de-serilization">
+      <option name="closed" value="true" />
+      <created>1729708625488</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708625488</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added xlsx file for practices of excel file">
+      <option name="closed" value="true" />
+      <created>1729708645291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708645291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="xlsx files change methods for usage">
+      <option name="closed" value="true" />
+      <created>1729708661553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708661553</updated>
+    </task>
+    <task id="LOCAL-00007" summary="user endponits are crated for tests and used robust and clean code and not repeated DRY">
+      <option name="closed" value="true" />
+      <created>1729708706958</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708706958</updated>
+    </task>
+    <task id="LOCAL-00008" summary="craeted tests for petstore api's in order to prcatice rest assured library.">
+      <option name="closed" value="true" />
+      <created>1729708731587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729708731587</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit">
+      <option name="closed" value="true" />
+      <created>1729714884839</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729714884839</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/api/endpoints/UserEndPoints.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="udpated gitignore and intellij files" />
+    <MESSAGE value="updated om for apache poi libraries" />
+    <MESSAGE value="created Routes Class for url config" />
+    <MESSAGE value="created User class for POJO and Serilization and de-serilization" />
+    <MESSAGE value="added xlsx file for practices of excel file" />
+    <MESSAGE value="xlsx files change methods for usage" />
+    <MESSAGE value="user endponits are crated for tests and used robust and clean code and not repeated DRY" />
+    <MESSAGE value="craeted tests for petstore api's in order to prcatice rest assured library." />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
